@@ -28,11 +28,9 @@ h1 {
     float: left;
 
 }
-.clearfix::after { 
-    content: ""; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
+.container-card.clearfix::after { 
+    content: "";  
+    display: table; 
     clear: both;
 }
 
