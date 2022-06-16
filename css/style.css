@@ -15,13 +15,14 @@ h1 {
 }
 /* contenuto main */
 .container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
+    
 
 }
 img{
-    height: 100;
-    width: 150;
+    height:100px;
+    width:100px;
 }
 .address{
     color: white;
@@ -36,14 +37,24 @@ h2{
     margin-bottom: 50px;
     float: left;
     margin-left: 0px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.767);
     color: white;
+    width: 30%;
+    padding-right:15px ;
 
+}
+.container-card{
+    border: solid 1px blu;
+    margin:0 auto;
 }
 .container-card.clearfix::after { 
     content: "";  
     display: table; 
     clear: both;
+    
+}
+.colonna:nth-child(3n){
+    margin-right: 0;
 }
 
 
