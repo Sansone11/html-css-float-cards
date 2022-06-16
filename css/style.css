@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* titolo */
 
 h1 {
     text-align: center;
@@ -12,20 +13,31 @@ h1 {
     margin-bottom: 40px;
 
 }
-
+/* contenuto main */
 .container {
     max-width: 1000px;
     margin: 0 auto;
 
 }
-
+img{
+    height: 100;
+    width: 150;
+}
+.address{
+    color: white;
+    font-size: 10px;
+}
+h2{
+    font-size: 20px;
+}
 
 .colonna {
     border-radius: 20px;
-    height: 200px;
-    width: 300px;
     margin-bottom: 50px;
     float: left;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
 
 }
 .container-card.clearfix::after { 
