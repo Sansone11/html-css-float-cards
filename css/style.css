@@ -16,5 +16,9 @@ h1{
     margin: auto;
 }
 .img{
+    height: 200px;
+    width: 200px;
+}
+.colonna{
     float: left;
 }
