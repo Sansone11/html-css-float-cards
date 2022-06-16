@@ -1,24 +1,40 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-h1{
+
+h1 {
     text-align: center;
     color: brown;
-    font-weight:bold;
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 40px;
 
 }
-.container{
-    max-width: 900px;
-    margin: auto;
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
 }
-.img{
+
+
+.colonna {
+    border-radius: 20px;
     height: 200px;
-    width: 200px;
-}
-.colonna{
+    width: 300px;
+    margin-bottom: 50px;
     float: left;
+
 }
+.clearfix::after { 
+    content: ""; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+
+
