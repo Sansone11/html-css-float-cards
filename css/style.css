@@ -15,7 +15,7 @@ h1 {
 }
 /* contenuto main */
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     
 
@@ -23,13 +23,21 @@ h1 {
 img{
     height:100px;
     width:100px;
+    border-bottom-right-radius: 20px;
 }
+.testo{
+    display: block;
+}
+
 .address{
     color: white;
     font-size: 10px;
 }
 h2{
-    font-size: 20px;
+    display: inline-block;
+    font-size: 15px;
+    padding-bottom: 30px;
+    text-align:right;
 }
 
 .colonna {
@@ -40,12 +48,13 @@ h2{
     background-color: rgba(0, 0, 0, 0.767);
     color: white;
     width: 30%;
-    padding-right:15px ;
+    margin-left: 20px;
 
 }
 .container-card{
     border: solid 1px blu;
     margin:0 auto;
+    padding-top: 30px;
 }
 .container-card.clearfix::after { 
     content: "";  
