@@ -44,14 +44,15 @@ h2{
     font-size: 15px;
     font-weight: 900;
     padding-left: 3px;
+    text-align: right;
     
 
 }
-/* .name{ 
+.name{ 
 
     display:inline-block;
     margin-left: 80 px;
-}*/
+}
 .colonna .name{
     text-align:right;
     margin-bottom:120 px;
