@@ -6,12 +6,13 @@
 /* titolo */
 
 h1 {
-    text-align: center;
+    display:inline-block;
+    margin:0 auto;
     color: brown;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 40px;
-
+    text-align: left;
+    
 }
 /* contenuto main */
 .container {
@@ -20,36 +21,53 @@ h1 {
     
 
 }
-img{
-    height:100;
-    width:100px;
+.img{
+    height:100%;
+    width:30% ;
 }
-.testo{
-    display: block;
+#testo{
+    display:inline-block;
+    font-weight: bold;
+    font-size: 13 px;
 }
 
 .address{
-    color: rgba(0, 68, 255, 0.692));
+    color: rgba(0, 162, 255, 0.692);
     font-size: 10px;
-    vertical-align:bottom;
+
+}
+.colonna .address{
+    text-align:right;
 }
 h2{
     display: inline-block;
     font-size: 15px;
     font-weight: 900;
-    text-align:right;
-    vertical-align: top;
+    padding-left: 3px;
+    
 
+}
+/* .name{ 
+
+    display:inline-block;
+    margin-left: 80 px;
+}*/
+.colonna .name{
+    text-align:right;
+    margin-bottom:120 px;
+}
+.colonna h2{
+    margin-bottom: 50p px;
 }
 
 .colonna {
     margin-bottom: 50px;
     float: left;
-    margin-left: 0px;
     background-color: rgba(0, 0, 0, 0.767);
     color: white;
     width: 30%;
     margin-left: 20px;
+
 
 }
 .container-card{
